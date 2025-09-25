@@ -9,10 +9,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W         &kp E             &kp R             &kp T                                                 &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A           &kp S         &kp D             &kp F             &kp G        &mo 6                 &kp BACKSLASH      &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z           &kp X         &kp C             &kp V             &kp B        &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp N        &kp M  &kp COMMA  &kp DOT  &lt 2 SLASH
-&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_CONTROL  &lt 1 SPACE  &lt 5 LA(TILDE)       &kp BACKSPACE      &lt 4 ENTER                             &lt 5 PRINTSCREEN
+&kp Q           &kp W         &kp E             &kp R                          &kp T                                                 &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A           &kp S         &kp D             &kp F                          &kp G        &mo 6                 &kp BACKSLASH      &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp Z           &kp X         &kp C             &kp V                          &kp B        &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp N        &kp M  &kp COMMA  &kp DOT  &lt 2 SLASH
+&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_COMMAND  &mt LEFT_CONTROL LEFT_CONTROL  &lt 1 SPACE  &lt 5 LA(TILDE)       &kp DELETE         &lt 4 ENTER                             &lt 5 PRINTSCREEN
             >;
         };
 
@@ -28,7 +28,7 @@
         SCROLL {
             bindings = <
 &kp ESCAPE  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &kp F12     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &kp F12     &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
@@ -46,7 +46,7 @@
         NUM {
             bindings = <
 &kp ESCAPE               &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK                           &kp BACKSLASH   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SEMICOLON
-&kp SLASH                &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_BRACKET  &trans      &trans  &kp BACKSLASH   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp AT_SIGN
+&kp TAB                  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_BRACKET  &trans      &trans  &kp BACKSLASH   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp AT_SIGN
 &mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE    &trans      &trans  &kp PIPE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
 &trans                   &kp NUMBER_0  &trans        &trans        &trans             &trans      &trans  &kp LEFT_SHIFT                                            &trans
             >;
